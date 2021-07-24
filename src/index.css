@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu-card {
+    @apply flex flex-col justify-center items-center bg-white h-screen font-mono py-40;
+}
+
+.center-content {
+    @apply flex flex-col justify-center items-center
+}
+
+.sidebar-title {
+    @apply p-3 text-sm cursor-pointer hover:text-green-300 
+}
+
+.page-content{
+    @apply m-10 p-10 text-5xl 
+}
+
+
+
+
